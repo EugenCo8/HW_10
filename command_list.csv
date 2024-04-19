@@ -1,0 +1,52 @@
+    1  -c && rm ~/.bash_history
+    2  -c && rm ~/.bash_history
+    3  git clone https://github.com/EugenCo8/HW_10.git
+    4  cd HW_10/
+    5  git config --global user.name "Eugen Katzimon"
+    6  git config --global user.email "vasilkrem@gmail.com"
+    7  CD /d/Dekstop_disk_D/HWQA35/HW_10
+    8  touch text_ignore.txt 
+    9  ls -1
+   10  vim .gitignore
+   11  git status
+   12  git diff
+   13  git add .gitignore
+   14  git status
+   15  git commit -m "Task1"
+   16  git push
+   17  touch main_test.txt
+   18  ls -1
+   19  git status
+   20  gid add main_test.txt
+   21  git status
+   22  git add main_test.txt
+   23  git status
+   24  git commit
+   25  git push
+   26  git commit -m "Task 2"
+   27  git push
+   28  git branch
+   29  cd /d/Dekstop_disk_D/HWQA35
+   30  cd HW_10/
+   31  git config --global user.name "Eugen Katzimon"
+   32  git config --global user.email "vasilkrem@gmail.com"
+   33  git branch
+   34  git checkout -b develop
+   35  git branch
+   36  touch develop_test.txt
+   37  ls -1
+   38  git status
+   39  git add develop_test.txt
+   40  git status
+   41  git commit -m "Task 3.1"
+   42  vim develop_test.txt 
+   43  cat develop_test.txt 
+   44  git status
+   45  git add develop_test.txt 
+   46  git status
+   47  git commit -m "Task 3.2"
+   48  git checkout main
+   49  git merge develop
+   50  git log
+   51  git push
+   52  history > command_list.csv
